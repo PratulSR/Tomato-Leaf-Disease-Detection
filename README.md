@@ -40,7 +40,7 @@ The data is split into:
 The project utilises the **YOLOv8** (You Only Look Once) architecture, known for its speed and accuracy in real-time object detection.
 
 ### Data Augmentation
-To combat the limited dataset size and improve generalization, an extensive data augmentation pipeline is implemented using the `albumentations` library. Augmentations include:
+To combat the limited dataset size and improve generalisation, an extensive data augmentation pipeline is implemented using the `albumentations` library. Augmentations include:
 - **Geometric:** Shift, Scale, Rotate.
 - **Color/Lighting:** Random Brightness & Contrast, HSV Jitter.
 - **Noise:** Gaussian Noise.
